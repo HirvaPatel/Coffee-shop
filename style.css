@@ -1,0 +1,76 @@
+body {
+    font-size: 12px;
+    font-family: 'Open Sans', arial, tahoma, sans-serif;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	height: 80px;
+
+}
+.user-menu{
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.user-menu li {
+    float: right;
+    border-right: solid #ccc;
+}
+
+.user-menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.user-menu li a:hover {
+    color: #a27250;
+}
+
+.carousel slide{
+	margin: 0px;
+}
+section.header_text{
+	text-align:center;
+	padding:00 10px 0;
+	font-size:16px;
+	line-height:20px;
+	border-bottom:1px solid #fff;
+}
+.products_images{
+    width: 80%;
+    margin: 0 auto;
+}
+.products_images li{
+	list-style-type: none;
+}
+.product-box {
+	 float: left;
+    width: 250px;
+    height:200px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    border-style: inset;
+    border-radius: 5px;
+    padding-bottom: 15em;
+}
+.product-box:hover{
+		background-color: #4D2311;
+	}
+.product-box:hover a, .price{
+	color: white;
+}
+
+.banner{
+   display: block; margin-right: auto; margin-left: auto; height:350px;    width:800px;    overflow:hidden;
+}
+section.content .row: {
+    font-size: 1000px;    
+}
